@@ -16,7 +16,7 @@ compile the Verilog files and and run testbench.v in a Verilog simulation enviro
 
 ### Instruction format
 
-Instructions should be provided to the instruction memory in reset time. We avoided the `readmemb` and `readmemh` functions to 
+Instructions should be provided to the instruction memory in reset time. I avoided the `readmemb` and `readmemh` functions to 
 keep the code synthesizable. The instruction memory cells are 8 bits long, whereas each instruction is 32 bits long. 
 Therefore, each instruction takes up four memory cells, as shown bellow.
 
